@@ -1,0 +1,12 @@
+﻿.env
+*.exe
+backups/
+.idea/
+.vscode/
+*.log
+_backup/
+_smoke/
+rabbitmqadmin.conf
+_scan_secrets.py
+*.pyc
+__pycache__/

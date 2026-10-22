@@ -1,0 +1,14 @@
+# Copy to %USERPROFILE%\.rabbitmqadmin.conf (TOML). Never commit real passwords.
+# Docs: https://www.rabbitmq.com/docs/management-cli
+
+[default]
+hostname = "127.0.0.1"
+port = 15672
+username = "guest"
+password = "guest"
+
+# [lab]
+# hostname = "192.168.100.41"
+# port = 15672
+# username = "guest"
+# password = "guest"
