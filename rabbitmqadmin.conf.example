@@ -1,5 +1,6 @@
 # Copy to %USERPROFILE%\.rabbitmqadmin.conf (TOML). Never commit real passwords.
 # Docs: https://www.rabbitmq.com/docs/management-cli
+# Use localhost/guest in the repo example only. Real lab host/user/pass stay on the machine.
 
 [default]
 hostname = "127.0.0.1"
@@ -7,8 +8,9 @@ port = 15672
 username = "guest"
 password = "guest"
 
+# Add more [node] sections locally, for example:
 # [lab]
-# hostname = "192.168.100.41"
+# hostname = "127.0.0.1"
 # port = 15672
 # username = "guest"
 # password = "guest"
